@@ -7,6 +7,7 @@ import { MdSchedule } from "react-icons/md";
 import { FiSettings } from "react-icons/fi";
 import { BiHelpCircle } from "react-icons/bi";
 import hiltilogo from "../assets/Hilti-Logo.jpg";
+
 function Navbar() {
   return (
     <>
