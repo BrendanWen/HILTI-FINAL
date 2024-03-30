@@ -1,0 +1,29 @@
+.navbar {
+    width: 128px;
+    height: 100%;
+    min-width: 80px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: absolute;
+}
+
+.nav-logo-div {
+    text-align: center;
+}
+
+.brand-logo {
+    width: 80px;
+    padding: 5px;
+}
+
+.nav-menu {
+    list-style-type: none;
+    font-weight: 500;
+    font-size: 12px;
+    padding-left: 0;
+}
+
+.nav-menu li {
+    margin: 10px 0px;
+}
