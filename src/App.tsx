@@ -1,16 +1,10 @@
 import "./styles/App.css";
-import Navbar from "./components/Navbar.tsx";
-import NavbarTop from "./components/NavbarTop.tsx";
+import Dashboard from "./components/Dashboard.tsx";
 
 function App() {
   return (
     <>
-      <div className="sidebar">
-        <Navbar />
-      </div>
-      <div className="page-contents">
-        <NavbarTop />
-      </div>
+      <Dashboard />
     </>
   );
 }
