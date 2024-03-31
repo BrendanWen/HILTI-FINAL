@@ -17,23 +17,23 @@ function Navbar() {
         </div>
         <ul className="nav-menu">
           <li>
-            <BiHomeAlt2 className="navbar-icon" />
+            <BiHomeAlt2 size={20} className="navbar-icon" />
             Dashboard
           </li>
           <li>
-            <BiMessageAltDetail className="navbar-icon" />
+            <BiMessageAltDetail size={20} className="navbar-icon" />
             Messages
           </li>
           <li>
-            <IoPeopleOutline className="navbar-icon" />
+            <IoPeopleOutline size={20} className="navbar-icon" />
             All Applicants
           </li>
           <li>
-            <HiOutlineClipboardList className="navbar-icon" />
+            <HiOutlineClipboardList size={20} className="navbar-icon" />
             Job Listing
           </li>
           <li>
-            <MdSchedule className="navbar-icon" />
+            <MdSchedule size={20} className="navbar-icon" />
             My Schedule
           </li>
         </ul>
@@ -42,11 +42,11 @@ function Navbar() {
           <p className="navbar-settings-title">SETTINGS</p>
           <ul className="nav-menu">
             <li>
-              <FiSettings className="navbar-icon" />
+              <FiSettings size={20} className="navbar-icon" />
               Settings
             </li>
             <li>
-              <BiHelpCircle className="navbar-icon" />
+              <BiHelpCircle size={20} className="navbar-icon" />
               Help Center
             </li>
           </ul>

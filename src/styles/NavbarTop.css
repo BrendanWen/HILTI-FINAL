@@ -2,11 +2,11 @@
     height: 70px;
     display: flex;
     align-items: center;
+    justify-content: end;
     border-bottom: 1px solid lightgrey;
 }
 
 .navbar-top-icon {
-margin-left: 80%;
 padding-right: 32px;
 }
 
@@ -21,6 +21,7 @@ padding-right: 32px;
     color: white;
     background-color: #D2051E;
     font-family: "Inter", sans-serif;
+    margin-right: 50px;
 }
 
 .btn-icon {
