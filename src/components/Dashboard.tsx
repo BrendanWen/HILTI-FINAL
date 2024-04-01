@@ -7,6 +7,7 @@ import JobStatsCard from "./JobStatsCard.tsx";
 import { AiOutlineEye } from "react-icons/ai";
 import { HiOutlineClipboardList } from "react-icons/hi";
 import { JobOpening, ApplicantSummary } from "./ApplicantSummary.tsx";
+import JobUpdates from "./JobUpdates.tsx";
 
 function Dashboard() {
   const date = new Date();
@@ -92,6 +93,10 @@ function Dashboard() {
                 <ApplicantSummary />
               </div>
             </div>
+          </section>
+
+          <section className="section-job-updates">
+            <JobUpdates />
           </section>
         </main>
       </div>
