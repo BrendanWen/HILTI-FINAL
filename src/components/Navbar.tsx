@@ -7,6 +7,7 @@ import { MdSchedule } from "react-icons/md";
 import { FiSettings } from "react-icons/fi";
 import { BiHelpCircle } from "react-icons/bi";
 import hiltilogo from "../assets/Hilti-Logo.jpg";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -18,23 +19,33 @@ function Navbar() {
         <ul className="nav-menu">
           <li>
             <BiHomeAlt2 size={20} className="navbar-icon" />
-            Dashboard
+            <Link to="/" className="nav-menu-link">
+              Dashboard
+            </Link>
           </li>
           <li>
             <BiMessageAltDetail size={20} className="navbar-icon" />
-            Messages
+            <Link to="/" className="nav-menu-link">
+              Messages
+            </Link>
           </li>
           <li>
             <IoPeopleOutline size={20} className="navbar-icon" />
-            All Applicants
+            <Link to="/" className="nav-menu-link">
+              All Applicants
+            </Link>
           </li>
           <li>
             <HiOutlineClipboardList size={20} className="navbar-icon" />
-            Job Listing
+            <Link to="/" className="nav-menu-link">
+              Job Listing
+            </Link>
           </li>
           <li>
             <MdSchedule size={20} className="navbar-icon" />
-            My Schedule
+            <Link to="/" className="nav-menu-link">
+              My Schedule
+            </Link>
           </li>
         </ul>
         <hr className="navbar-line" />

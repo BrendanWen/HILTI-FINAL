@@ -1,5 +1,4 @@
 import "../styles/Dashboard.css";
-import Navbar from "./Navbar.tsx";
 import NavbarTop from "./NavbarTop.tsx";
 import BarChart from "./BarChart.tsx";
 import { FaArrowRight } from "react-icons/fa";
@@ -13,9 +12,6 @@ function Dashboard() {
   const date = new Date();
   return (
     <>
-      <div className="sidebar">
-        <Navbar />
-      </div>
       <div className="page-contents">
         <NavbarTop />
 

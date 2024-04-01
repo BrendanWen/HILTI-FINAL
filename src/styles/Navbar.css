@@ -34,9 +34,25 @@
 }
 
 .nav-menu li {
-   padding: 12px 0px 12px 16px;
+    padding: 12px 0px 12px 16px;
     display: flex;
     align-items: center;
+    color: #7c8493;
+    text-decoration: none;
+}
+
+.nav-menu li:hover {
+    animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0.6; background-color: #FFEEF0; }
+    100% { opacity: 1; background-color: #FFEEF0;}
+  
+}
+
+.nav-menu-link {
+    text-decoration: none;
     color: #7c8493;
 }
 
