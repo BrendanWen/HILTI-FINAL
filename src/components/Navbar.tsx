@@ -47,6 +47,18 @@ function Navbar() {
               My Schedule
             </Link>
           </li>
+          <li>
+            <MdSchedule size={20} className="navbar-icon" />
+            <Link to="/" className="nav-menu-link">
+              Digital Interview
+            </Link>
+          </li>
+          <li>
+            <MdSchedule size={20} className="navbar-icon" />
+            <Link to="/" className="nav-menu-link">
+              My Applications
+            </Link>
+          </li>
         </ul>
         <hr className="navbar-line" />
         <div className="settings">

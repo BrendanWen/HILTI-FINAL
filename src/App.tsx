@@ -10,10 +10,8 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Dashboard />} />
-          <Route path="/" element={<Dashboard />} />
         </Routes>
       </Router>
-      <Dashboard />
     </>
   );
 }
