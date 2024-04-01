@@ -1,3 +1,5 @@
+
+
 import "../styles/Navbar.css";
 import { BiHomeAlt2 } from "react-icons/bi";
 import { BiMessageAltDetail } from "react-icons/bi";
@@ -80,3 +82,4 @@ function Navbar() {
 }
 
 export default Navbar;
+
