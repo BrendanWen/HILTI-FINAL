@@ -1,5 +1,3 @@
-
-
 import "../styles/Navbar.css";
 import { BiHomeAlt2 } from "react-icons/bi";
 import { BiMessageAltDetail } from "react-icons/bi";
@@ -8,6 +6,8 @@ import { HiOutlineClipboardList } from "react-icons/hi";
 import { MdSchedule } from "react-icons/md";
 import { FiSettings } from "react-icons/fi";
 import { BiHelpCircle } from "react-icons/bi";
+import { BiSearch } from "react-icons/bi";
+import { CgList } from "react-icons/cg";
 import hiltilogo from "../assets/Hilti-Logo.jpg";
 import { Link } from "react-router-dom";
 
@@ -50,15 +50,15 @@ function Navbar() {
             </Link>
           </li>
           <li>
-            <MdSchedule size={20} className="navbar-icon" />
+            <BiSearch size={20} className="navbar-icon" />
             <Link to="/" className="nav-menu-link">
               Digital Interview
             </Link>
           </li>
           <li>
-            <MdSchedule size={20} className="navbar-icon" />
-            <Link to="/" className="nav-menu-link">
-              My Applications
+            <CgList size={20} className="navbar-icon" />
+            <Link to="/applicant" className="nav-menu-link">
+              My Application
             </Link>
           </li>
         </ul>
@@ -82,4 +82,3 @@ function Navbar() {
 }
 
 export default Navbar;
-
