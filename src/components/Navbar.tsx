@@ -1,3 +1,5 @@
+
+
 import "../styles/Navbar.css";
 import { BiHomeAlt2 } from "react-icons/bi";
 import { BiMessageAltDetail } from "react-icons/bi";
@@ -12,31 +14,52 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <>
-    
       <nav className="navbar">
         <div className="nav-logo-div">
           <img src={hiltilogo} className="brand-logo" />
         </div>
         <ul className="nav-menu">
           <li>
-            <BiHomeAlt2 className="navbar-icon" />
-            <Link to="/">Dashboard</Link>
+            <BiHomeAlt2 size={20} className="navbar-icon" />
+            <Link to="/" className="nav-menu-link">
+              Dashboard
+            </Link>
           </li>
           <li>
-            <BiMessageAltDetail className="navbar-icon" />
-            Messages
+            <BiMessageAltDetail size={20} className="navbar-icon" />
+            <Link to="/" className="nav-menu-link">
+              Messages
+            </Link>
           </li>
           <li>
-            <IoPeopleOutline className="navbar-icon" />
-            All Applicants
+            <IoPeopleOutline size={20} className="navbar-icon" />
+            <Link to="/" className="nav-menu-link">
+              All Applicants
+            </Link>
           </li>
           <li>
-            <HiOutlineClipboardList className="navbar-icon" />
-            <Link to="/applicant">Job Listing</Link>
+            <HiOutlineClipboardList size={20} className="navbar-icon" />
+            <Link to="/" className="nav-menu-link">
+              Job Listing
+            </Link>
           </li>
           <li>
-            <MdSchedule className="navbar-icon" />
-            My Schedule
+            <MdSchedule size={20} className="navbar-icon" />
+            <Link to="/" className="nav-menu-link">
+              My Schedule
+            </Link>
+          </li>
+          <li>
+            <MdSchedule size={20} className="navbar-icon" />
+            <Link to="/" className="nav-menu-link">
+              Digital Interview
+            </Link>
+          </li>
+          <li>
+            <MdSchedule size={20} className="navbar-icon" />
+            <Link to="/" className="nav-menu-link">
+              My Applications
+            </Link>
           </li>
         </ul>
         <hr className="navbar-line" />
@@ -44,11 +67,11 @@ function Navbar() {
           <p className="navbar-settings-title">SETTINGS</p>
           <ul className="nav-menu">
             <li>
-              <FiSettings className="navbar-icon" />
+              <FiSettings size={20} className="navbar-icon" />
               Settings
             </li>
             <li>
-              <BiHelpCircle className="navbar-icon" />
+              <BiHelpCircle size={20} className="navbar-icon" />
               Help Center
             </li>
           </ul>
@@ -59,3 +82,4 @@ function Navbar() {
 }
 
 export default Navbar;
+

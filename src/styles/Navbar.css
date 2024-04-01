@@ -42,13 +42,9 @@
 }
 
 .nav-menu li:hover {
-    animation: fadeIn 1s;
-}
-
-@keyframes fadeIn {
-    0% { opacity: 0.6; background-color: #FFEEF0; }
-    100% { opacity: 1; background-color: #FFEEF0;}
-  
+    transition: all 0.1s ease-in;
+    background-color: #FFEEF0; 
+    color: #D2051E;
 }
 
 .nav-menu-link {
