@@ -12,40 +12,31 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <>
+    
       <nav className="navbar">
         <div className="nav-logo-div">
           <img src={hiltilogo} className="brand-logo" />
         </div>
         <ul className="nav-menu">
           <li>
-            <BiHomeAlt2 size={20} className="navbar-icon" />
-            <Link to="/" className="nav-menu-link">
-              Dashboard
-            </Link>
+            <BiHomeAlt2 className="navbar-icon" />
+            <Link to="/">Dashboard</Link>
           </li>
           <li>
-            <BiMessageAltDetail size={20} className="navbar-icon" />
-            <Link to="/" className="nav-menu-link">
-              Messages
-            </Link>
+            <BiMessageAltDetail className="navbar-icon" />
+            Messages
           </li>
           <li>
-            <IoPeopleOutline size={20} className="navbar-icon" />
-            <Link to="/" className="nav-menu-link">
-              All Applicants
-            </Link>
+            <IoPeopleOutline className="navbar-icon" />
+            All Applicants
           </li>
           <li>
-            <HiOutlineClipboardList size={20} className="navbar-icon" />
-            <Link to="/" className="nav-menu-link">
-              Job Listing
-            </Link>
+            <HiOutlineClipboardList className="navbar-icon" />
+            <Link to="/applicant">Job Listing</Link>
           </li>
           <li>
-            <MdSchedule size={20} className="navbar-icon" />
-            <Link to="/" className="nav-menu-link">
-              My Schedule
-            </Link>
+            <MdSchedule className="navbar-icon" />
+            My Schedule
           </li>
         </ul>
         <hr className="navbar-line" />
@@ -53,11 +44,11 @@ function Navbar() {
           <p className="navbar-settings-title">SETTINGS</p>
           <ul className="nav-menu">
             <li>
-              <FiSettings size={20} className="navbar-icon" />
+              <FiSettings className="navbar-icon" />
               Settings
             </li>
             <li>
-              <BiHelpCircle size={20} className="navbar-icon" />
+              <BiHelpCircle className="navbar-icon" />
               Help Center
             </li>
           </ul>
