@@ -1,4 +1,4 @@
-import "../styles/NavbarTop.css";
+import "../../styles/Navbar/NavbarTop.css";
 import { GrNotification } from "react-icons/gr";
 import { AiOutlinePlus } from "react-icons/ai";
 

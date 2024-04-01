@@ -1,5 +1,5 @@
 import { FaArrowRight } from "react-icons/fa";
-import "../styles/JobUpdates.css";
+import "../../styles/Dashboard/JobUpdates.css";
 
 function JobUpdates() {
   return (

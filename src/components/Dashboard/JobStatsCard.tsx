@@ -1,5 +1,5 @@
 import { ReactElement } from "react";
-import "../styles/JobStatsCard.css";
+import "../../styles/Dashboard/JobStatsCard.css";
 
 interface Props {
   title: string;

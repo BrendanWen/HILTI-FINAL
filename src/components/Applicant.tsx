@@ -3,10 +3,11 @@ import { MdStar } from "react-icons/md";
 import { BiMessageAltDetail } from "react-icons/bi";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsPhone } from "react-icons/bs";
-
+import NavbarTop from "./Navbar/NavbarTop";
 function Applicant() {
   return (
     <>
+      <NavbarTop />
       <h1>Applicant Details</h1>
       <br></br>
       <div className="body">

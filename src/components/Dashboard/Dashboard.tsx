@@ -1,11 +1,11 @@
-import "../styles/Dashboard.css";
-import NavbarTop from "./NavbarTop.tsx";
+import "../../styles/Dashboard/Dashboard.css";
+import NavbarTop from "../Navbar/NavbarTop.tsx";
 import BarChart from "./BarChart.tsx";
 import { FaArrowRight } from "react-icons/fa";
 import JobStatsCard from "./JobStatsCard.tsx";
 import { AiOutlineEye } from "react-icons/ai";
 import { HiOutlineClipboardList } from "react-icons/hi";
-import { JobOpening, ApplicantSummary } from "./ApplicantSummary.tsx";
+import { JobOpening, ApplicantSummary } from "../ApplicantSummary.tsx";
 import JobUpdates from "./JobUpdates.tsx";
 
 function Dashboard() {
