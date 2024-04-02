@@ -27,7 +27,7 @@ function Navbar() {
           </li>
           <li>
             <BiMessageAltDetail size={20} className="navbar-icon" />
-            <Link to="/" className="nav-menu-link">
+            <Link to="/messages" className="nav-menu-link">
               Messages
             </Link>
           </li>
@@ -39,8 +39,8 @@ function Navbar() {
           </li>
           <li>
             <HiOutlineClipboardList size={20} className="navbar-icon" />
-            <Link to="/" className="nav-menu-link">
-              Job Listing
+            <Link to="cv-upload" className="nav-menu-link">
+              Uploaded Resume
             </Link>
           </li>
           <li>
