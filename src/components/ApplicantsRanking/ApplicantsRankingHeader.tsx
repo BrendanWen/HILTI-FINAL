@@ -4,13 +4,13 @@ export default function ApplicantsRankingHeader() {
       <div
         className="Header"
         style={{
-          width: "93%",
+          width: "75%",
           height: 30,
           padding: 16,
           paddingLeft: "230px",
           background: "white",
           border: "1px #D6DDEB solid",
-          gap: "120px",
+          gap: "100px",
           alignItems: "center",
           display: "inline-flex",
           marginLeft: "32px",
@@ -24,6 +24,7 @@ export default function ApplicantsRankingHeader() {
             justifyContent: "flex-start",
             alignItems: "center",
             display: "flex",
+            paddingRight: "29px",
           }}
         >
           <div
@@ -54,6 +55,7 @@ export default function ApplicantsRankingHeader() {
             justifyContent: "flex-start",
             alignItems: "center",
             display: "flex",
+            paddingRight: "6px",
           }}
         >
           <div
@@ -84,6 +86,7 @@ export default function ApplicantsRankingHeader() {
               fontSize: 16,
               fontWeight: "400",
               wordWrap: "break-word",
+              paddingRight: "16px",
             }}
           >
             Hiring Stage
@@ -96,6 +99,7 @@ export default function ApplicantsRankingHeader() {
             justifyContent: "flex-start",
             alignItems: "center",
             display: "flex",
+            paddingRight: "41px",
           }}
         >
           <div
