@@ -1,0 +1,14 @@
+.title3-text {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    margin: 0;
+}
+
+.ranking-content-dashboard {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    gap: 16px;
+}

@@ -33,8 +33,8 @@ function Navbar() {
           </li>
           <li>
             <IoPeopleOutline size={20} className="navbar-icon" />
-            <Link to="/" className="nav-menu-link">
-              All Applicants
+            <Link to="/all-applicants" className="nav-menu-link">
+              Applicants
             </Link>
           </li>
           <li>
