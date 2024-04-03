@@ -13,7 +13,7 @@ export default function ApplicantsRankingHeader() {
           gap: "100px",
           alignItems: "center",
           display: "inline-flex",
-          marginLeft: "32px",
+          marginLeft: "48px",
           marginRight: "32px",
         }}
       >
@@ -24,7 +24,7 @@ export default function ApplicantsRankingHeader() {
             justifyContent: "flex-start",
             alignItems: "center",
             display: "flex",
-            paddingRight: "29px",
+            paddingRight: "24px",
           }}
         >
           <div
