@@ -1,20 +1,35 @@
 import "./styles/App.css";
-import { HashRouter as Router, Route, Routes } from "react-router-dom";
-import Dashboard from "./components/Dashboard/Dashboard.tsx";
-import Navbar from "./components/Navbar/Navbar.tsx";
+import Navbar from "./components/Navbar.tsx";
+import NavbarTop from "./components/NavbarTop.tsx";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Navigate,
+} from "react-router-dom";
+import CV from "./components/CV-upload.tsx";
 import Applicant from "./components/Applicant.tsx";
-import CVUpload from "./components/CVUpload.tsx";
-import ApplicantsRanking from "./components/ApplicantsRanking/ApplicantsRanking.tsx";
+import List from "./components/List.tsx"
+
 function App() {
+
   return (
     <>
       <Router>
-        <Navbar />
+        <div className="sidebar">
+          <Navbar />
+        </div> 
+        <div className="page-contents">
+          <NavbarTop />
+        </div>        
         <Routes>
-          <Route path="/" element={<Dashboard />} />
-          <Route path="/applicant" element={<Applicant />} />
-          <Route path="/cv-upload" element={<CVUpload />} />
-          <Route path="/all-applicants" element={<ApplicantsRanking />} />
+          <Route
+            path="/" element={<CV />}/>     
+          <Route
+            path="/applicant" element={<Applicant />}/>            
+          <Route
+            path="*"
+            element={<Navigate to="/" />}/>
         </Routes>
       </Router>
     </>
