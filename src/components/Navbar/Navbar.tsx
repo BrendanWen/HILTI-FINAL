@@ -21,13 +21,13 @@ function Navbar() {
         <ul className="nav-menu">
           <li>
             <BiHomeAlt2 size={20} className="navbar-icon" />
-            <Link to="/" className="nav-menu-link">
+            <Link to="/dashboard" className="nav-menu-link">
               Dashboard
             </Link>
           </li>
           <li>
             <BiMessageAltDetail size={20} className="navbar-icon" />
-            <Link to="/messages" className="nav-menu-link">
+            <Link to="/dashboard" className="nav-menu-link">
               Messages
             </Link>
           </li>
@@ -39,19 +39,19 @@ function Navbar() {
           </li>
           <li>
             <HiOutlineClipboardList size={20} className="navbar-icon" />
-            <Link to="cv-upload" className="nav-menu-link">
+            <Link to="/cv-upload" className="nav-menu-link">
               Uploaded Resume
             </Link>
           </li>
           <li>
             <MdSchedule size={20} className="navbar-icon" />
-            <Link to="/" className="nav-menu-link">
+            <Link to="/dashboard" className="nav-menu-link">
               My Schedule
             </Link>
           </li>
           <li>
             <BiSearch size={20} className="navbar-icon" />
-            <Link to="/" className="nav-menu-link">
+            <Link to="/dashboard" className="nav-menu-link">
               Digital Interview
             </Link>
           </li>

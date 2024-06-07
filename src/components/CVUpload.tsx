@@ -1,7 +1,7 @@
 import "../styles/CVUpload.css";
 import NavbarTop from "./Navbar/NavbarTop";
 import { useState, useEffect } from "react";
-import { db, storage } from "../../firebase";
+import { db, storage } from "./firebase";
 import { collection, addDoc } from "firebase/firestore";
 import {
   ref,
@@ -11,6 +11,7 @@ import {
   list,
 } from "firebase/storage";
 import { v4 } from "uuid";
+import Navbar from "./Navbar/Navbar";
 
 function CVUpload() {
   const [imageUpload, setImageUpload] = useState(null);
@@ -72,6 +73,7 @@ function CVUpload() {
 
   return (
     <>
+      <Navbar />
       <NavbarTop />
       <h1>Job Application Submission</h1>
       <br></br>

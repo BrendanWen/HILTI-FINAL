@@ -5,6 +5,7 @@ import CVUpload from "./components/CVUpload.tsx";
 import Login from "./components/LoginPage.tsx";
 import Register from "./components/RegisterPage.tsx";
 import ApplicantDetails from "./components/ApplicantDetails/ApplicantDetails.tsx";
+import ApplicantsRanking from "./components/ApplicantsRanking/ApplicantsRanking.tsx";
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
           <Route index element={<Login></Login>}></Route>
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
-          <Route path="/" element={<Dashboard />} />
+          <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/applicant" element={<ApplicantDetails />} />
           <Route path="/cv-upload" element={<CVUpload />} />
           <Route path="/all-applicants" element={<ApplicantsRanking />} />

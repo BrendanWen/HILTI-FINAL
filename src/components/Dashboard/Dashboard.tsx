@@ -5,13 +5,15 @@ import { FaArrowRight } from "react-icons/fa";
 import JobStatsCard from "./JobStatsCard.tsx";
 import { AiOutlineEye } from "react-icons/ai";
 import { HiOutlineClipboardList } from "react-icons/hi";
-import { JobOpening, ApplicantSummary } from "../ApplicantSummary.tsx";
+import { JobOpening, ApplicantSummary } from "./ApplicantSummary.tsx";
 import JobUpdates from "./JobUpdates.tsx";
+import Navbar from "../Navbar/Navbar.tsx";
 
 function Dashboard() {
   const date = new Date();
   return (
     <>
+      <Navbar />
       <div className="page-contents">
         <NavbarTop />
 

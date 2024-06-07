@@ -7,10 +7,12 @@ import ApplicantsRankingSearch from "./ApplicantsRankingSearch";
 import ApplicantsRankingHeader from "./ApplicantsRankingHeader";
 import ApplicantsRankingRows from "./ApplicantsRankingRows";
 import { Link } from "react-router-dom";
+import Navbar from "../Navbar/Navbar";
 
 function ApplicantsRanking() {
   return (
     <>
+      <Navbar />
       <NavbarTop />
       <div className="page-contents">
         <div className="ranking-top-nav">

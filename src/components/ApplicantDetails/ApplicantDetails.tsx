@@ -8,9 +8,11 @@ import { IoIosArrowDown } from "react-icons/io";
 import NavbarTop from "../Navbar/NavbarTop";
 import ApplicantDetailsProfileDetails from "./ApplicantDetailsProfileDetails";
 import ApplicantDetailsDashboard from "./ApplicantDetailsDashboard";
+import Navbar from "../Navbar/Navbar";
 function ApplicantDetails() {
   return (
     <>
+      <Navbar />
       <div className="page-contents">
         <NavbarTop />
         <div className="applicant-top-nav">
